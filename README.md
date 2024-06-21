@@ -1,31 +1,13 @@
-# Study Notion Website
-
- It uses React version **18.2** and Tailwind CSS version **3.2**.
-
-## Usage
-
-This starter pack includes a basic setup for using **Tailwind CSS with React**. To start building your own components and styles, follow these steps:
-
-1. Clone the repository to your local machine.
-    ```sh
-    git clone https://github.com/Saaraansh10/Studynotion-Website.git
-    ```
-
-1. Install the required packages.
-    ```sh
-    cd react-tailwind-css-starter-pack
-    npm install
-    ```
-
-1. Start the development server.
-    ```sh
-    npm start
-    ```
-1. Open the project in your browser at [`http://localhost:3000`](http://localhost:3000) to view your project.
-1. Create your React components and add your styles using Tailwind classes. You can also create new CSS files and import them into your components.
-
-The project is set up to use `postcss-cli` to process your CSS files. You can add your own `tailwind.config.js` file to customize your Tailwind setup.
-
-## Contributing
-
-Contributions are welcome! If you have any suggestions or find any issues, please feel free to open an issue or a pull request.
+Study Notion Website is a Full-Stack website or an EdTech platform for instructors and students all across the world.
+It consists of three types of users i.e. the Admin, the Instuctors and the Students.
+Admin has the central control of the whole app/website and can create category of courses that needs to be published in the website through Postman.
+The Instructors can create courses, set prices for them and have their dashboard while logging in personally. They can create as many courses as they want and can add video lectures for all types of courses they are creating.
+The students on the other side have the luxury of exploring different courses, buying them, viewing them and even can give ratings to them.
+The project has frontend tech stacks:- HTML, CSS, Tailwind CSS, JavaScript, ReactJs
+The backend tech stacks are:- ExpressJs, NodeJs, MongoDB
+Frontend of the project has been published through Vercel while Backend part was made live using the Render App.
+API'S were tested using the Postman API while for file storage Cloudinary is being used.
+Authorisation and authentication were done using the JWT Tokens and Cookie Parser.
+Payment integration has been done using the testing account of Razorpay.
+Live link:- https://studynotion-website-5f95.vercel.app/
+Github Repo Link:- https://github.com/Saaraansh10/Studynotion-Website
